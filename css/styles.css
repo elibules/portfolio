@@ -1,12 +1,24 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("fonts/Montserrat.ttf");
+}
+@font-face {
+  font-family: MontserratItalic;
+  src: url("fonts/Montserrat-Italic.ttf");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Montserrat;
 }
+
 html,
 body {
+  background-color: #d3d0c9;
   height: 100%;
 }
+
 h1,
 h2,
 h3,
@@ -15,4 +27,36 @@ h5,
 h6,
 p {
   margin-bottom: 16px;
+  color: #015b7b;
 }
+
+section {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+}
+
+.wrapper header {
+  display: flex;
+}
+.wrapper header div {
+  padding: 1rem 2rem;
+  border: 4px #015b7b solid;
+  width: fit-content;
+}
+.wrapper header div h1 {
+  font-weight: 300;
+  font-size: 60px;
+}
+.wrapper header div h2 {
+  font-family: MontserratItalic;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.wrapper header nav {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=styles.css.map */

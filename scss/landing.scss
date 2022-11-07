@@ -1,0 +1,24 @@
+.wrapper {
+    header {
+        display: flex;
+        div {
+            padding: 1rem 2rem;
+            border: 4px #015b7b solid;
+            width: fit-content;
+            h1 {
+                font-weight: 300;
+                font-size: 60px;
+            }
+            h2 {
+                font-family: MontserratItalic;
+                font-weight: 400;
+                font-size: 30px;
+                text-transform: uppercase;
+            }
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
