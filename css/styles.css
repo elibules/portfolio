@@ -58,5 +58,8 @@ section {
   display: flex;
   flex-direction: column;
 }
+.wrapper header nav a {
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=styles.css.map */
