@@ -35,3 +35,12 @@ section {
     width: 100vw;
     padding: 2rem;
 }
+
+#page {
+    width: 100% !important;
+    #page-header {
+        text-transform: capitalize;
+        font-size: 55px;
+        border-bottom: 4px $blue dashed;
+    }
+}
