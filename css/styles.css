@@ -57,9 +57,19 @@ section {
 .wrapper header nav {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  padding-left: 2rem;
 }
 .wrapper header nav a {
   text-decoration: none;
+  color: #015b7b;
+  font-size: 24px;
+  font-weight: 600;
+  border: 2px rgba(0, 0, 0, 0) solid;
+  padding: 0.65rem 1rem;
+}
+.wrapper header nav a:hover {
+  border: 2px #eaac0b solid;
 }
 
 /*# sourceMappingURL=styles.css.map */
