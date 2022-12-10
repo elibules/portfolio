@@ -36,6 +36,13 @@ section {
     padding: 2rem;
 }
 
+canvas {
+    display: block;
+    vertical-align: bottom;
+    position: fixed;
+    z-index: 0;
+}
+
 #page {
     width: 100% !important;
     #page-header {
@@ -43,4 +50,16 @@ section {
         font-size: 55px;
         border-bottom: 4px $blue dashed;
     }
+}
+
+.yellow {
+    color: $yellow;
+}
+
+.blue {
+    color: $blue;
+}
+
+.green {
+    color: $green;
 }

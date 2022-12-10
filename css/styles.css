@@ -36,6 +36,13 @@ section {
   padding: 2rem;
 }
 
+canvas {
+  display: block;
+  vertical-align: bottom;
+  position: fixed;
+  z-index: 0;
+}
+
 #page {
   width: 100% !important;
 }
@@ -45,8 +52,21 @@ section {
   border-bottom: 4px #015b7b dashed;
 }
 
+.yellow {
+  color: #eaac0b;
+}
+
+.blue {
+  color: #015b7b;
+}
+
+.green {
+  color: #129176;
+}
+
 .wrapper header {
   display: flex;
+  flex-wrap: wrap;
 }
 .wrapper header div {
   padding: 1rem 2rem;
@@ -73,6 +93,7 @@ section {
 }
 .wrapper header nav a {
   display: inline-block;
+  margin-top: 1rem;
   text-decoration: none;
   color: #015b7b;
   font-size: 24px;
@@ -80,12 +101,64 @@ section {
   border: 3px rgba(0, 0, 0, 0) solid;
   padding: 0.65rem 1rem;
   width: 100%;
+  background: linear-gradient(to right, #015b7b 50%, #d3d0c9 50%);
+  border: 3px rgba(0, 0, 0, 0) solid;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.4s ease-out;
+  border-right: none;
+  border-left: none;
 }
 .wrapper header nav a:hover {
   border: 3px #015b7b solid;
 }
 .wrapper header nav .active-link {
+  background-position: left bottom;
+}
+
+form {
+  margin-top: 50px !important;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 600px;
+}
+form label {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+form input {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 26px;
+  border-bottom: 4px solid #da3131;
+  outline: none;
+  margin-bottom: 30px;
+}
+form textarea {
+  padding: 0.25rem 0.5rem;
+  font-size: 22px;
+  border: 3px solid #da3131;
+  outline: none;
+  background-color: #d3d0c9;
+}
+form button {
+  margin-top: 30px;
+  font-size: 26px;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #d3d0c9;
+  border: 3px solid #015b7b;
+  font-weight: 600;
   background-color: #015b7b;
+  border: 3px solid #015b7b;
+  color: #d3d0c9;
+}
+form button:active {
+  color: #d3d0c9;
+  background-color: #2192bb;
+  border: 3px solid #2192bb;
 }
 
 /*# sourceMappingURL=styles.css.map */

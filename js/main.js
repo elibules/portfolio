@@ -21,7 +21,11 @@ function setNav() {
   }
 }
 
-function fetchContent(page) {
+async function fetchContent(page) {
+  $("#page-content").hide();
   $("#page-header").html(page);
-  console.log(page);
+
+  $.get("content/" + page + ".html", (data) => {
+    $("#page-content").html(data).show(400);
+  });
 }
