@@ -1,6 +1,7 @@
-.about-content {
+#about-content {
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -38,10 +39,10 @@
     }
 }
 
-@media (max-width: 416px) {
-    .about-content {
+@media (max-width: 430px) {
+    #about-content {
         img {
-            height: 400px;
+            height: 350px !important;
         }
     }
 }

@@ -1,50 +1,61 @@
-form {
-    margin-top: 50px !important;
+#contact-content {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    max-width: 600px;
-
-    label {
+    align-items: center;
+    p {
+        width: 100%;
+        max-width: 600px;
         font-size: 26px;
-        font-weight: 700;
-        margin-bottom: 15px;
     }
+    form {
+        margin-top: 50px !important;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: 300px;
+        max-width: 600px;
 
-    input {
-        border: none;
-        background-color: rgba(0, 0, 0, 0);
-        font-size: 26px;
-        border-bottom: 4px solid $red;
-        outline: none;
-        margin-bottom: 30px;
-    }
+        label {
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
 
-    textarea {
-        padding: 0.25rem 0.5rem;
-        font-size: 22px;
-        border: 3px solid $red;
-        outline: none;
-        background-color: $grey;
-        // resize: none;
-    }
+        input {
+            border: none;
+            background-color: rgba(0, 0, 0, 0);
+            font-size: 26px;
+            border-bottom: 4px solid $red;
+            outline: none;
+            margin-bottom: 30px;
+        }
 
-    button {
-        margin-top: 30px;
-        font-size: 26px;
-        padding: 0.5rem;
-        cursor: pointer;
-        background-color: $grey;
-        border: 3px solid $blue;
-        font-weight: 600;
-        background-color: $blue;
-        border: 3px solid $blue;
-        color: $grey;
-    }
+        textarea {
+            padding: 0.25rem 0.5rem;
+            font-size: 22px;
+            border: 3px solid $red;
+            outline: none;
+            background-color: $grey;
+            // resize: none;
+        }
 
-    button:active {
-        color: $grey;
-        background-color: #2192bb;
-        border: 3px solid #2192bb;
+        button {
+            margin-top: 30px;
+            font-size: 26px;
+            padding: 0.5rem;
+            cursor: pointer;
+            background-color: $grey;
+            border: 3px solid $blue;
+            font-weight: 600;
+            background-color: $blue;
+            border: 3px solid $blue;
+            color: $grey;
+        }
+
+        button:active {
+            color: $grey;
+            background-color: #2192bb;
+            border: 3px solid #2192bb;
+        }
     }
 }
