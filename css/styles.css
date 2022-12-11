@@ -187,7 +187,7 @@ form button:active {
   width: fit-content;
 }
 .about-content .about-text p {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 500;
   max-width: 1000px;
 }
@@ -203,7 +203,7 @@ form button:active {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 22px;
 }
 .about-content .skills ul {
   margin-right: 50px;
