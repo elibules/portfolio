@@ -45,6 +45,8 @@ canvas {
 
 #page {
   width: 100% !important;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 #page #page-header {
   text-transform: capitalize;
@@ -62,6 +64,14 @@ canvas {
 
 .green {
   color: #129176;
+}
+
+.red {
+  color: #da3131;
+}
+
+h2 {
+  font-size: 36px;
 }
 
 .wrapper header {
@@ -89,6 +99,7 @@ canvas {
   justify-content: space-around;
   padding-left: 2rem;
   min-width: 300px;
+  width: 100%;
   max-width: 500px;
 }
 .wrapper header nav a {
@@ -159,6 +170,45 @@ form button:active {
   color: #d3d0c9;
   background-color: #2192bb;
   border: 3px solid #2192bb;
+}
+
+.about-content {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1400px;
+}
+.about-content .about-text {
+  width: fit-content;
+}
+.about-content .about-text h2 {
+  width: fit-content;
+}
+.about-content .about-text p {
+  font-size: 22px;
+  font-weight: 500;
+  max-width: 1000px;
+}
+.about-content img {
+  display: block;
+  height: 450px;
+  padding: 1rem 1rem;
+  border: 1rem solid #015b7b;
+  background-color: #eaac0b;
+  margin-bottom: 50px;
+}
+.about-content .skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.about-content .skills ul {
+  margin-right: 50px;
+  margin-left: 15px;
+  color: #015b7b;
 }
 
 /*# sourceMappingURL=styles.css.map */
