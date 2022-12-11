@@ -11,14 +11,14 @@
             width: fit-content;
         }
         p {
-            font-size: 26px;
+            font-size: 24px;
             font-weight: 500;
             max-width: 1000px;
         }
     }
     img {
         display: block;
-        height: 450px;
+        height: 475px;
         padding: 1rem 1rem;
         border: 1rem solid $blue;
         background-color: $yellow;
@@ -29,11 +29,19 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 30px;
-        font-size: 22px;
+        font-size: 20px;
         ul {
             margin-right: 50px;
             margin-left: 15px;
             color: $blue;
+        }
+    }
+}
+
+@media (max-width: 416px) {
+    .about-content {
+        img {
+            height: 400px;
         }
     }
 }

@@ -185,13 +185,13 @@ form button:active {
   width: fit-content;
 }
 .about-content .about-text p {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 500;
   max-width: 1000px;
 }
 .about-content img {
   display: block;
-  height: 450px;
+  height: 475px;
   padding: 1rem 1rem;
   border: 1rem solid #015b7b;
   background-color: #eaac0b;
@@ -201,12 +201,18 @@ form button:active {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .about-content .skills ul {
   margin-right: 50px;
   margin-left: 15px;
   color: #015b7b;
+}
+
+@media (max-width: 416px) {
+  .about-content img {
+    height: 400px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
