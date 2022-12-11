@@ -27,6 +27,6 @@
         "title": "Go - ReactJS Micro Framework",
         "link": "https://github.com/elibules/go-react-framework",
         "img": "goReact.png",
-        "description": "This is a web server written in Go that is built to serve a single-page application like React. The Go server, built in an MVC architecture, includes the ability to connect to a MySQL database. After the SPA in delivered to the client, the server will then serve as a RESTful API for the client side application. <a href='https://github.com/elibules/simple_weather_app' target='_blank'>Check out the GitHub Repo here.</a>"
+        "description": "This is a web server written in Go that is built to serve a single-page application like React. The Go server, built in an MVC architecture, includes the ability to connect to a MySQL database. After the SPA is delivered to the client, the server will then serve as a RESTful API for the client side application. <a href='https://github.com/elibules/simple_weather_app' target='_blank'>Check out the GitHub Repo here.</a>"
     }
 ]
