@@ -25,7 +25,7 @@
             padding-left: 2rem;
             min-width: 300px;
             width: 100%;
-            max-width: 500px;
+            max-width: 455px;
             // margin-top: 2rem;
 
             a {
@@ -61,5 +61,11 @@
                 // transition: all 0.4s ease-out;
             }
         }
+    }
+}
+
+@media (max-width: 1019px) {
+    nav {
+        padding-left: 0rem !important;
     }
 }

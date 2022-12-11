@@ -100,7 +100,7 @@ h2 {
   padding-left: 2rem;
   min-width: 300px;
   width: 100%;
-  max-width: 500px;
+  max-width: 455px;
 }
 .wrapper header nav a {
   display: inline-block;
@@ -127,6 +127,11 @@ h2 {
   background-position: left bottom;
 }
 
+@media (max-width: 1019px) {
+  nav {
+    padding-left: 0rem !important;
+  }
+}
 form {
   margin-top: 50px !important;
   display: flex;
