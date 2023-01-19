@@ -7,7 +7,7 @@ window.addEventListener("hashchange", (e) => {
 });
 
 function setNav() {
-  let hash = window.location.hash.replace("#", "");
+  let hash = window.location.hash.replace("#/", "");
   $("a").css("color", "#015b7b");
   $("a").removeClass("active-link");
   if (hash != "") {

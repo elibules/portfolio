@@ -1,5 +1,11 @@
 [
     {
+        "title": "KPaul Student Software Engineer",
+        "link": "http://kpaul.com",
+        "img": "kpaul.png",
+        "description": "For the Spring of 2023 I will have assisted KPaul's development team in designing and creating Full Stack software solutions using the C#/ASP.NET MVC platform. The main project I was assigned to is their Enterprise Resource Planning (ERP) system, which is used to track purchase orders, sales, etc."
+    },
+    {
         "title": "IU Student Outreach Clinic Website",
         "link": "https://soc.iupui.edu",
         "img": "soc.png",
@@ -7,13 +13,13 @@
     },
     {
         "title": "Easy Cards",
-        "link": "https://in-info-web4.informatics.iupui.edu/~ebules/n423/final_bules/",
+        "link": "http://ebules.com/easycards",
         "img": "easyCards.png",
         "description": "Created as a final project for NEWM-N423 in the Fall of 2022, Easy Cards is a fully featured Quizlet-like Study Tools application. I created the project with Firebase Authentication, Firestore db, and an OOP JavaScript MVC Architecture. <a href='https://github.com/elibules/n423-final-bules' target='_blank'>Check out the GitHub Repo here.</a>"
     },
     {
         "title": "Water St. CD & Vinyl",
-        "link": "https://in-info-web4.informatics.iupui.edu/~ebules/n413_site_bules/",
+        "link": "http://ebules.com/waterst",
         "img": "cdVinyl.png",
         "description": "Created as a final project for NEWM-N413 in the Spring of 2022, Water St. CD & Vinyl is a complete simulation of an e-commerce website. This site was built using the CodeIgniter PHP framework, MySql, and Javascript. Users can browse shop content, filter and sort the content, login/register an account, and view past orders if they have made any. <a href='https://github.com/elibules/waterst_php' target='_blank'>Check out the GitHub Repo here.</a>"
     },
